@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF3896EA24375B9B000598AF /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3896E924375B9B000598AF /* MovieTableViewCell.swift */; };
+		FF3896EE24377491000598AF /* MovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3896ED24377491000598AF /* MovieCollectionViewCell.swift */; };
+		FF3896F02437BD2A000598AF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3896EF2437BD2A000598AF /* Constants.swift */; };
+		FF3896F22437C15E000598AF /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3896F12437C15E000598AF /* Data.swift */; };
+		FF3896F42437C469000598AF /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3896F32437C469000598AF /* DBManager.swift */; };
+		FF3896F62437D497000598AF /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3896F52437D497000598AF /* DataModel.swift */; };
+		FFD407282437125F006EEEA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD407272437125F006EEEA7 /* AppDelegate.swift */; };
+		FFD4072A2437125F006EEEA7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD407292437125F006EEEA7 /* SceneDelegate.swift */; };
+		FFD4072F2437125F006EEEA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFD4072D2437125F006EEEA7 /* Main.storyboard */; };
+		FFD407322437125F006EEEA7 /* Methflix.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FFD407302437125F006EEEA7 /* Methflix.xcdatamodeld */; };
+		FFD4073424371260006EEEA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFD4073324371260006EEEA7 /* Assets.xcassets */; };
+		FFD4073724371260006EEEA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFD4073524371260006EEEA7 /* LaunchScreen.storyboard */; };
+		FFD4074224371260006EEEA7 /* MethflixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD4074124371260006EEEA7 /* MethflixTests.swift */; };
+		FFD4074D24371260006EEEA7 /* MethflixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD4074C24371260006EEEA7 /* MethflixUITests.swift */; };
+		FFD4075E243712B7006EEEA7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD4075D243712B7006EEEA7 /* HomeViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFD4073E24371260006EEEA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFD4071C2437125F006EEEA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFD407232437125F006EEEA7;
+			remoteInfo = Methflix;
+		};
+		FFD4074924371260006EEEA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFD4071C2437125F006EEEA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFD407232437125F006EEEA7;
+			remoteInfo = Methflix;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF3896E924375B9B000598AF /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		FF3896ED24377491000598AF /* MovieCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCollectionViewCell.swift; sourceTree = "<group>"; };
+		FF3896EF2437BD2A000598AF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FF3896F12437C15E000598AF /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		FF3896F32437C469000598AF /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
+		FF3896F52437D497000598AF /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		FFD407242437125F006EEEA7 /* Methflix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Methflix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFD407272437125F006EEEA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FFD407292437125F006EEEA7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FFD4072E2437125F006EEEA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFD407312437125F006EEEA7 /* Methflix.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Methflix.xcdatamodel; sourceTree = "<group>"; };
+		FFD4073324371260006EEEA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFD4073624371260006EEEA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFD4073824371260006EEEA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFD4073D24371260006EEEA7 /* MethflixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MethflixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFD4074124371260006EEEA7 /* MethflixTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MethflixTests.swift; sourceTree = "<group>"; };
+		FFD4074324371260006EEEA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFD4074824371260006EEEA7 /* MethflixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MethflixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFD4074C24371260006EEEA7 /* MethflixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MethflixUITests.swift; sourceTree = "<group>"; };
+		FFD4074E24371260006EEEA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFD4075D243712B7006EEEA7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFD407212437125F006EEEA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFD4073A24371260006EEEA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFD4074524371260006EEEA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFD4071B2437125F006EEEA7 = {
+			isa = PBXGroup;
+			children = (
+				FFD407262437125F006EEEA7 /* Methflix */,
+				FFD4074024371260006EEEA7 /* MethflixTests */,
+				FFD4074B24371260006EEEA7 /* MethflixUITests */,
+				FFD407252437125F006EEEA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFD407252437125F006EEEA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFD407242437125F006EEEA7 /* Methflix.app */,
+				FFD4073D24371260006EEEA7 /* MethflixTests.xctest */,
+				FFD4074824371260006EEEA7 /* MethflixUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFD407262437125F006EEEA7 /* Methflix */ = {
+			isa = PBXGroup;
+			children = (
+				FFD4075B24371291006EEEA7 /* Models */,
+				FFD4075A2437128A006EEEA7 /* Views */,
+				FFD4075C243712A3006EEEA7 /* Controllers */,
+				FFD407272437125F006EEEA7 /* AppDelegate.swift */,
+				FFD407292437125F006EEEA7 /* SceneDelegate.swift */,
+				FFD4073324371260006EEEA7 /* Assets.xcassets */,
+				FFD4073524371260006EEEA7 /* LaunchScreen.storyboard */,
+				FFD4073824371260006EEEA7 /* Info.plist */,
+				FF3896EF2437BD2A000598AF /* Constants.swift */,
+			);
+			path = Methflix;
+			sourceTree = "<group>";
+		};
+		FFD4074024371260006EEEA7 /* MethflixTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFD4074124371260006EEEA7 /* MethflixTests.swift */,
+				FFD4074324371260006EEEA7 /* Info.plist */,
+			);
+			path = MethflixTests;
+			sourceTree = "<group>";
+		};
+		FFD4074B24371260006EEEA7 /* MethflixUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FFD4074C24371260006EEEA7 /* MethflixUITests.swift */,
+				FFD4074E24371260006EEEA7 /* Info.plist */,
+			);
+			path = MethflixUITests;
+			sourceTree = "<group>";
+		};
+		FFD4075A2437128A006EEEA7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FFD4072D2437125F006EEEA7 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FFD4075B24371291006EEEA7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FFD407302437125F006EEEA7 /* Methflix.xcdatamodeld */,
+				FF3896F12437C15E000598AF /* Data.swift */,
+				FF3896F32437C469000598AF /* DBManager.swift */,
+				FF3896F52437D497000598AF /* DataModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FFD4075C243712A3006EEEA7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FFD4075D243712B7006EEEA7 /* HomeViewController.swift */,
+				FF3896E924375B9B000598AF /* MovieTableViewCell.swift */,
+				FF3896ED24377491000598AF /* MovieCollectionViewCell.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFD407232437125F006EEEA7 /* Methflix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFD4075124371260006EEEA7 /* Build configuration list for PBXNativeTarget "Methflix" */;
+			buildPhases = (
+				FFD407202437125F006EEEA7 /* Sources */,
+				FFD407212437125F006EEEA7 /* Frameworks */,
+				FFD407222437125F006EEEA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Methflix;
+			productName = Methflix;
+			productReference = FFD407242437125F006EEEA7 /* Methflix.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FFD4073C24371260006EEEA7 /* MethflixTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFD4075424371260006EEEA7 /* Build configuration list for PBXNativeTarget "MethflixTests" */;
+			buildPhases = (
+				FFD4073924371260006EEEA7 /* Sources */,
+				FFD4073A24371260006EEEA7 /* Frameworks */,
+				FFD4073B24371260006EEEA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFD4073F24371260006EEEA7 /* PBXTargetDependency */,
+			);
+			name = MethflixTests;
+			productName = MethflixTests;
+			productReference = FFD4073D24371260006EEEA7 /* MethflixTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FFD4074724371260006EEEA7 /* MethflixUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFD4075724371260006EEEA7 /* Build configuration list for PBXNativeTarget "MethflixUITests" */;
+			buildPhases = (
+				FFD4074424371260006EEEA7 /* Sources */,
+				FFD4074524371260006EEEA7 /* Frameworks */,
+				FFD4074624371260006EEEA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFD4074A24371260006EEEA7 /* PBXTargetDependency */,
+			);
+			name = MethflixUITests;
+			productName = MethflixUITests;
+			productReference = FFD4074824371260006EEEA7 /* MethflixUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFD4071C2437125F006EEEA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Muhammad Nobel Shidqi";
+				TargetAttributes = {
+					FFD407232437125F006EEEA7 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					FFD4073C24371260006EEEA7 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = FFD407232437125F006EEEA7;
+					};
+					FFD4074724371260006EEEA7 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = FFD407232437125F006EEEA7;
+					};
+				};
+			};
+			buildConfigurationList = FFD4071F2437125F006EEEA7 /* Build configuration list for PBXProject "Methflix" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFD4071B2437125F006EEEA7;
+			productRefGroup = FFD407252437125F006EEEA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFD407232437125F006EEEA7 /* Methflix */,
+				FFD4073C24371260006EEEA7 /* MethflixTests */,
+				FFD4074724371260006EEEA7 /* MethflixUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFD407222437125F006EEEA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFD4073724371260006EEEA7 /* LaunchScreen.storyboard in Resources */,
+				FFD4073424371260006EEEA7 /* Assets.xcassets in Resources */,
+				FFD4072F2437125F006EEEA7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFD4073B24371260006EEEA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFD4074624371260006EEEA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFD407202437125F006EEEA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF3896EA24375B9B000598AF /* MovieTableViewCell.swift in Sources */,
+				FFD4075E243712B7006EEEA7 /* HomeViewController.swift in Sources */,
+				FFD407282437125F006EEEA7 /* AppDelegate.swift in Sources */,
+				FF3896EE24377491000598AF /* MovieCollectionViewCell.swift in Sources */,
+				FF3896F42437C469000598AF /* DBManager.swift in Sources */,
+				FF3896F62437D497000598AF /* DataModel.swift in Sources */,
+				FF3896F02437BD2A000598AF /* Constants.swift in Sources */,
+				FFD407322437125F006EEEA7 /* Methflix.xcdatamodeld in Sources */,
+				FFD4072A2437125F006EEEA7 /* SceneDelegate.swift in Sources */,
+				FF3896F22437C15E000598AF /* Data.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFD4073924371260006EEEA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFD4074224371260006EEEA7 /* MethflixTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFD4074424371260006EEEA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFD4074D24371260006EEEA7 /* MethflixUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFD4073F24371260006EEEA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFD407232437125F006EEEA7 /* Methflix */;
+			targetProxy = FFD4073E24371260006EEEA7 /* PBXContainerItemProxy */;
+		};
+		FFD4074A24371260006EEEA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFD407232437125F006EEEA7 /* Methflix */;
+			targetProxy = FFD4074924371260006EEEA7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FFD4072D2437125F006EEEA7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFD4072E2437125F006EEEA7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FFD4073524371260006EEEA7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFD4073624371260006EEEA7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFD4074F24371260006EEEA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FFD4075024371260006EEEA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFD4075224371260006EEEA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8MV3PNW544;
+				INFOPLIST_FILE = Methflix/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mnobelsh.Methflix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFD4075324371260006EEEA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8MV3PNW544;
+				INFOPLIST_FILE = Methflix/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mnobelsh.Methflix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FFD4075524371260006EEEA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8MV3PNW544;
+				INFOPLIST_FILE = MethflixTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mnobelsh.MethflixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Methflix.app/Methflix";
+			};
+			name = Debug;
+		};
+		FFD4075624371260006EEEA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8MV3PNW544;
+				INFOPLIST_FILE = MethflixTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mnobelsh.MethflixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Methflix.app/Methflix";
+			};
+			name = Release;
+		};
+		FFD4075824371260006EEEA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8MV3PNW544;
+				INFOPLIST_FILE = MethflixUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mnobelsh.MethflixUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Methflix;
+			};
+			name = Debug;
+		};
+		FFD4075924371260006EEEA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8MV3PNW544;
+				INFOPLIST_FILE = MethflixUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mnobelsh.MethflixUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Methflix;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFD4071F2437125F006EEEA7 /* Build configuration list for PBXProject "Methflix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFD4074F24371260006EEEA7 /* Debug */,
+				FFD4075024371260006EEEA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFD4075124371260006EEEA7 /* Build configuration list for PBXNativeTarget "Methflix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFD4075224371260006EEEA7 /* Debug */,
+				FFD4075324371260006EEEA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFD4075424371260006EEEA7 /* Build configuration list for PBXNativeTarget "MethflixTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFD4075524371260006EEEA7 /* Debug */,
+				FFD4075624371260006EEEA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFD4075724371260006EEEA7 /* Build configuration list for PBXNativeTarget "MethflixUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFD4075824371260006EEEA7 /* Debug */,
+				FFD4075924371260006EEEA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FFD407302437125F006EEEA7 /* Methflix.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FFD407312437125F006EEEA7 /* Methflix.xcdatamodel */,
+			);
+			currentVersion = FFD407312437125F006EEEA7 /* Methflix.xcdatamodel */;
+			path = Methflix.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FFD4071C2437125F006EEEA7 /* Project object */;
+}
